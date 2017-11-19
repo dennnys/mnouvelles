@@ -1,0 +1,366 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-size: 1em;
+	font-family: 'Open Sans', sans-serif;
+	color: #505050;
+}
+a {
+	text-decoration: none;
+	color: #505050;
+}
+h1 {
+	text-align: center;
+	width: 80%;
+	margin: 20px auto; 
+}
+h2 {
+	background: #1C3766;
+	color: #fff;
+	font-size: 1em;
+	margin: 5px 0;
+	padding: 5px 10px;
+}
+h3 {
+	font-family: 'Teko';
+	font-size: 1.2em;
+	width: 200px;
+	height: 30px;
+	margin: 0;
+	overflow: hidden;
+	font-weight: 400;
+}
+.wrap{
+	width: 1000px;
+	margin: 0 auto;
+}
+.cache {
+	display: none ;
+}
+/*======== Header =========*/
+header {
+	width: 100%;
+	height: 50px;
+	background: #1C3766;
+	color: #87B0D1;
+	text-align: center;
+	position: relative;
+}
+.h_logo {
+	float: left;
+	position: relative;
+}
+.h_date {
+	width: 300px;
+	float: left;
+	margin: 10px 0 0 200px;
+}
+.h_sociale {
+	float: right;
+	position: relative;
+	margin-top: 8px;
+	margin-right: 10px;
+}
+.h_sociale a {
+	color: #1C3766;
+}
+.h_sociale a:hover {
+	color: #ff9975;
+}
+.h_sociale .fa {
+	background: #fff;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	margin-left: 5px;
+	font-size: 1.3em;
+	line-height: 1.5em;
+}
+
+/*====== Navigation =======*/
+nav {
+	position: fixed;
+	z-index: 100;
+	/*background: #ADADAD;*/
+	width: 50px;
+	height: 300px;
+	margin-top: 100px;
+	margin-left: -54px;
+	border-right: 4px solid #1C3766;
+	text-align: left;
+}
+nav .care {
+	width: 40px;
+	height: 40px;
+	background: #1C3766;
+	position: relative;
+	color: #fff;
+	margin: 5px 5px 5px;
+	transition: all .3s;
+	overflow: hidden;
+}
+nav .care .fa {
+	margin-left: 7px;
+	font-size: 1.7em;
+	line-height: 1.5em;
+}
+nav a:hover .care .fa {
+	color: #ff9975;
+}
+nav .care span {
+	display: none;
+}
+nav a:hover .care {
+	width: 135px;
+	transition: all .3s;
+}
+nav a:hover .care span {
+	display: inline-block;
+	color: #fff;
+	font-size: .8em;
+	margin-left: 10px;
+	font-weight: 700;
+	transition: all .5s;
+	position: absolute;
+	top: 10px;
+	text-transform: uppercase;
+}
+/*=========== Section ===========*/
+section {
+	clear: both;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+/*------- Section article -------*/
+.s_article,
+.s_contact {
+	/*background: #ff9975;*/
+	width: 730px;
+	float: left;
+}
+.s_article article {
+	width: 200px;
+	height: 335px;
+	border: 1px dotted #1C3766;
+	border-radius: 10px;
+	margin: 10px;
+	padding: 10px;
+	float: left;
+}
+.s_article article:hover {
+	box-shadow: 5px 5px 10px #888;
+}
+.a_img {
+	width: 200px;
+}
+.a_img img {
+	width: 100%;
+	height: auto;
+}
+.a_text {
+	width: 200px;
+	height: 165px;
+	overflow: hidden;
+	font-size: .8em;
+}
+.a_tip {
+	font-weight: 700;
+	position: relative;
+	color: #fff;
+	background: #1C3766;
+	width: 100px;
+	text-align: center;
+	float: right;
+}
+
+/*------- Section sidebar -------*/
+.s_droite {
+	/*background: #BFFFE5;*/
+	width: 270px;
+	float: right;
+}
+.recherche {
+	/*background: red;*/
+	margin: 10px 0;
+}
+.recherche input {
+	width: 240px;
+	border-radius: 3px;
+}
+.recherche a {
+	color: #1C3766;
+}
+.recherche a:hover {
+	color: #ff9975;
+}
+.d_nouvelles article {
+	overflow: hidden;
+	border-bottom: 1px dotted #1C3766;
+	cursor: pointer;
+}
+.d_nouvelles article:hover span {
+	color: #ff9975;
+}
+.d_nouvelles img {
+	float: left;
+	margin: 5px 10px 5px 0;
+}
+.d_nouvelles span {
+	font-size: .7em;
+	line-height: 1.25em;
+	display: block;
+	height: 100px;
+	width: 160px;
+	overflow: hidden;
+	margin: 5px 0;
+	float: right;
+}
+.cache {
+	display: none;
+}
+.manque ul li {
+	margin-left: -15px;
+}
+.manque ul li a{
+	text-decoration: none;
+	color: #505050;
+}
+.manque ul li a:hover{
+	color: #ff9975;
+}
+/*======= Footer ======*/
+footer {
+	background: #1C3766;
+	color: #87B0D1;
+	width: 100%;
+	height: 160px;
+	font-size: .8em;
+	font-weight: 700;
+}
+footer a{
+	color: #87B0D1;
+	text-decoration: none;
+}
+footer * {
+	margin: 0;
+	padding: 0;
+}
+.menu,
+.partenaires,
+.concours,
+.contact,
+.photo_jour {
+	float: left;
+	width: 130px;
+	height: auto;
+	overflow: hidden;
+	position: relative;
+	margin: 10px 0 0 30px;
+	padding: 0 15px;
+	border-left: 1px dotted #87B0D1;
+}
+.menu ul li,
+.contact ul li {
+	list-style: none;
+	text-transform: uppercase; 
+	margin: 0;
+	padding: 0;
+}
+.menu ul a:hover,
+.partenaires a:hover,
+.concours ul a:hover,
+.contact ul a:hover {
+	color: #ff9975;
+}
+.partenaires li {
+	margin-left: 10px;
+}
+.partenaires a {
+	font-weight: 400;
+}
+.concours {
+	width: 200px;
+}
+.concours ul li {
+	list-style: none;
+}
+.photo_jour {
+	width: 105px;
+}
+.photo_jour img {
+	width: 70px;
+	height: 70px;
+	margin-top: 7px;
+	border: 2px solid #87B0D1;
+}
+.photo_jour img:hover {
+	border: 2px solid #ff9975;
+}
+.f_droit {
+	clear: both;
+	width: 100%;
+	text-align: center;
+	font-weight: 400;
+}
+.f_droit a{
+	text-decoration: underline;
+}
+/*====== Contact ======*/
+.s_contact form {
+	width: 400px;
+	margin: 20px auto;
+	text-align: right;
+}
+.s_contact form span {
+	color: red;
+}
+.s_contact form .envoiye {
+	width: 100px;
+	height: 30px;
+	background: #1C3766;
+	color: #fff;
+	border: 0;
+}
+.s_contact form .envoiye:hover {
+	color: #ff9975;
+	cursor: pointer;
+}
+/*========= /Contact ========*/
+/*========= Une nouvelle ========*/
+.s_nouvel {
+	margin: 0 15px;
+}
+/*========= /Une nouvelle ========*/
+/*========= Noutre Equipe =========*/
+.equipe {
+	margin: 0 15px;
+}
+.equipe table {
+	width: 670px;
+	border-spacing: 10px;
+}
+.equipe table tr td {
+	position: relative;
+}
+.equipe table img{
+	width: 100%;
+	height: auto;
+}
+.nous_text {
+	position: absolute;
+	width: 280px;
+	left: 20px;
+}
+.nous_text p:nth-child(1) {
+	font-size: 1.5em;
+	font-weight: 700;
+	margin: 10px 10px 0 10px;
+}
+.nous_text p:nth-child(2) {
+	font-style: italic;
+	margin: 5px;
+}
+.nous_text p:nth-child(3) {
+	font-size: .85em;
+}
+/*========= /Noutre Equipe =========*/
